@@ -401,7 +401,7 @@ var Lightbox = (function ($) {
 				if (caption) {
 					this._footerIsShown = true;
 					this._$modalFooter.css('display', '').html(caption);
-				} else this._$modalFooter.css('display', 'none');
+				} else this._$modalFooter.css('display', 'block');  // Custome Changes none to block
 
 				return this;
 			}
